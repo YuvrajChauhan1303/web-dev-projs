@@ -25,6 +25,40 @@ html,body{
     width: 100%;
 }
 
+body{
+    background-color: black;
+}
+
+#loader{
+    text-transform: uppercase;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+#loader h1{
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: NeueHassMed;
+    background-image: linear-gradient(90deg, rgba(253,143,46,1) 0%, rgba(254,67,18,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#loader #p1{
+    display: block;   
+}
+#loader #p2{
+    display: none;
+}
+#loader #p3{
+    display: none;
+}
+
 #navbar{
     display: flex;
     width : 100%;
@@ -97,4 +131,5 @@ html,body{
 .breaker{
     width: 95%;
     margin: 40px auto;
+    display: none;
 }
